@@ -1,0 +1,43 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e57373;
+    /* Color de fondo similar al de la imagen */
+}
+
+h1 {
+    padding: 10px;
+    margin: 0;
+}
+
+nav {
+    width: 150px;
+    margin: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    display: block;
+    padding: 10px;
+    background-color: #7c326c;
+    /* Color morado para los botones */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+a:hover {
+    background-color: #673ab7;
+    /* Color más oscuro al pasar el mouse */
+}

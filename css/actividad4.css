@@ -1,0 +1,44 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: white;
+}
+
+.menu-container {
+    border: 2px solid #00bcd4;
+    display: inline-block;
+}
+
+nav {
+    background-color: #00bcd4;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+li {
+    border-right: 1px solid white;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    font-size: 14px;
+}
+
+a:hover {
+    background-color: #0097a7;
+}
